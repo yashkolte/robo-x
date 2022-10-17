@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -161,6 +162,10 @@ body {
   color: #fff;
 }
 
+.more-btn a {
+  text-decoration: none;
+}
+
 .hero-img {
   width: 30%;
   height: 90vh;
@@ -281,6 +286,11 @@ body {
   padding: 10px 12px;
 }
 
+#main2 .buttons-top .btn1 a,
+#main2 .buttons-top .btn2 a {
+  text-decoration: none;
+}
+
 #main2 .buttons-top .btn1 h3,
 #main2 .buttons-top .btn2 h3 {
   font-size: 1rem;
@@ -375,6 +385,10 @@ body {
   left: 50%;
   transform: translate(-50%, 0);
   width: 10vw;
+}
+
+#main3 .hero3 .box2 .btn a {
+  text-decoration: none;
 }
 
 #main3 .hero3 .box2 .btn h2:hover {
@@ -755,6 +769,10 @@ body {
     justify-content: center;
   }
 
+  #main3 .hero3 .box3 {
+    margin-top: 25px;
+  }
+
   #main3 .hero3 .box .btn {
     width: 50%;
     height: 4vh;
@@ -852,7 +870,6 @@ body {
     font-size: 0.7rem;
     white-space: nowrap;
     width: 30%;
-    background-color: #e17c23;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -881,7 +898,7 @@ body {
 
   .footer .footer-img {
     position: absolute;
-    bottom: -10px;
+    bottom: -2px;
     right: 0;
     width: 30%;
   }
